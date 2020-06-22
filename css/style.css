@@ -1,0 +1,32 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+.h1jumbrotron{
+    font-size: 100px;
+}
+
+.pheading{
+    font-size: 25px;
+}
+
+.h1jumbrotron2{
+    font: 75px;
+}
+
+.col-sm-4{
+    text-align: justify;
+    text-align: center;
+    text-justify: newspaper;
+}
+
+.container {
+    margin-top: 25px;
+}
+
+#div1 {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}

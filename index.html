@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product showcase</title>
+    <meta name="description" content="javascript and bootstrap showcase">
+    <meta name="keywords" content="fullstack, html,css,javascript,frontend,bootstrap"/>
+    <meta name="robots" content="index"/>
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">HEALTHY.COM</a>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-default navbar-btn">Home</button>
+                <button class="btn btn-default navbar-btn">Products</button>
+                <button class="btn btn-default navbar-btn">About</button>
+            </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1 class="h1jumbrotron">FOOD STREET MARKET</h1>
+        <p class="pheading">Eating a healthy diet is not about strict limitations, staying unrealistically thing, or depriving yourself of the foods you love.</p>
+        <div class="collection" id="dropable" ondrop="drop(event)" ondragover="allowDrop(event)"
+        </div>
+            <img src="images/cart.png" alt="shoppingcart" height="100px" width="75px">
+         <div class="icon-shopping-cart" id="itemcount">
+        </div>
+        <div class="icon-shopping-cart" id="itemcount2">
+        </div>
+        <span class="heading">Drag and Drop items to the Basket
+        </span>
+        <ul class="grid" id="target-grid">
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/2.jpg" id="item1" value=50 alt="food" id="drag1" srcset="" draggable="true" ondragstart="drag(event)" height="175px" width="325px">
+                <h3 id="value" value=50
+                <h3>VEGETABLES</h3>
+                <h6>Price kg:10€</h6>
+                <p>Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition,you’re not alone.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/3.jpg" alt="food" id="drag2" srcset="" draggable="true" ondragstart="drag(event)" height="175px" width="325px">
+                <h3>VEGAN MEAT</h3>
+                <h6>Price kg:10€</h6>
+                <p>The truth is that while some specific foods or nutrients have been shown to have a beneficial effect on mood.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/1.jpeg" alt="food" id="drag3" srcset="" draggable="true" ondragstart="drag(event) "height="175px" width="325px"">
+                <h3>BREAD</h3>
+                <h6>Price kg:10€</h6>
+                <p>There's some good and bad news about vitamins and minerals: The good news is that intake is linked with a lower risk of early death.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/4.jpg" alt="food" id="drag4" srcset="" draggable="true" ondragstart="drag(event)" height="175px" width="325px">
+                <h3>SPECIES</h3>
+                <h6>Price kg:10€</h6>
+                <p>Healthy eating doesn’t have to be overly complicated. If you feel overwhelmed by all the conflicting nutrition, you’re not alone.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/5.jpg" alt="food" id="drag5" srcset="" draggable="true" ondragstart="drag(event)" height="175px" width="325px">
+                <h3>FRUITS</h3>
+                <h6>Price kg:10€</h6>
+                <p>The truth is that while some specific foods or nutrients have been shown to have a beneficial effect on mood.</p>
+            </div>
+                <div class="col-sm-4">
+                <img src="images/6.jpg" alt="food" id="drag6" srcset="" draggable="true" ondragstart="drag(event)" height="175px" width="325px">
+                <h3>FISH</h3>
+                <h6>Price kg:10€</h6>
+                <p>There's some good and bad news about vitamins and minerals: The good news is that intake is linked with a lower risk of early death</p>
+            </div>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>  
+        </div>
+        <footer>
+            <div class="jumbotron text-center">
+                <h3 class="h1jumbrotron2">@FOODSTREETMARKET</h3><br><p>Your daily smart choose</p>
+            </div>
+        </footer>
+    </div>  
+</body>
+</html>
