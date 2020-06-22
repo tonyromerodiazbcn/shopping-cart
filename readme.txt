@@ -1,6 +1,6 @@
 # Drag and drop
 
-Drag and drop is a ecommerce drag and drop prodcut utility
+Drag and drop is a ecommerce drag and drop product utility
 
 ## Installation
 
